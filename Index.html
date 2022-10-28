@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!--bootstrap-->
+		<link rel="stylesheet" type="text/css" href="frameworks/bootstrap.css">
+		<!--custom CSS-->
+		<link rel="stylesheet" type="text/css" href="css/Styles.css">
+		<!--font-->
+		<title>Proyecto 1</title>
+	</head>
+<header class="sticky-top">
+	<nav class="navbar navbar-expand-lg navbar-dark background-navbar sticky-top">
+		<div class="container-fluid">
+		   	<a class="navbar-brand" href="#">Amisi</a>
+		   	<span class="navbar-text text-navbar"> another music page </span>
+		   	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+	    	</button>
+	       	<div class="collapse navbar-collapse navbar-custom" id="navbarNavDropdown">
+	      		<ul class="navbar-nav ms-auto">
+	        		<li class="nav-item">
+	                <button type="button" class="btn-nobtn-navbar" data-bs-toggle="modal" data-bs-target="#addcontentmodal">modal</button>
+	        		</li>
+	       	 		<li class="nav-item">
+	          			<a class="nav-link" href="#">Features</a>
+	        		</li>
+	        		<li class="nav-item dropdown">
+	          			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Add content</a>
+	          			<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	            			<li><a class="dropdown-item" href="html/add-songs.html">Add a new song</a></li>
+	            			<li><a class="dropdown-item" href="html/add-albums.html">Add a new album</a></li>
+	            			<li><a class="dropdown-item" href="html/add-artists.html">Add a new artist</a></li>
+	            			<li><a class="dropdown-item" href="html/add-genre.html">Add a new genre</a></li>
+	          			</ul>
+	        		</li>
+		      	</ul>
+		   	</div>
+	  	</div>
+	</nav>
+</header>		
+<body class="body">
+	<div class="container container1">
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+						<div class="card">
+		  					<img src="..." class="card-img-top" alt="...">
+		  					<div class="card-body">
+		    					<h5 class="card-title">Card title</h5>
+		   					 	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    					<a id="primer-card" href="#" class="btn btn-info bt-onecard">Go somewhere</a>
+		  					</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+						<div class="card">
+		  					<img src="..." class="card-img-top" alt="...">
+		  					<div class="card-body">
+		    					<h5 class="card-title">Card title</h5>
+		   					 	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    					<a href="#" class="btn btn-info">Go somewhere</a>
+		  					</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+						<div class="card">
+		  					<img src="..." class="card-img-top" alt="...">
+		  					<div class="card-body">
+		    					<h5 class="card-title">Card title</h5>
+		   					 	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    					<a href="#" class="btn btn-info">Go somewhere</a>
+		  					</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+						<div class="card">
+		  					<img src="..." class="card-img-top" alt="...">
+		  					<div class="card-body">
+		    					<h5 class="card-title">Card title</h5>
+		   					 	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    					<a href="#" class="btn btn-info">Go somewhere</a>
+		  					</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+						<div class="card">
+		  					<img src="..." class="card-img-top" alt="...">
+		  					<div class="card-body">
+		    					<h5 class="card-title">Card title</h5>
+		   					 	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    					<a href="#" class="btn btn-info">Go somewhere</a>
+		  					</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+						<div class="card">
+		  					<img src="..." class="card-img-top" alt="...">
+		  					<div class="card-body">
+		    					<h5 class="card-title">Card title</h5>
+		   				 		<p class="card-text">Some quick example text to build on the card title and make up the bulk of
+		   				 		the card's content.</p>
+		    				    <a href="#" class="btn btn-info">Go somewhere</a>
+		 					</div>
+						</div>
+					</div>
+				</div>	
+			</div>	
+		</section>
+		
+		<div class="modal fade" id="addcontentmodal" >
+		 	<div class="modal-dialog modal-dialog-scrollable">
+		    	<div class="modal-content background-modal-content">
+					<div class="modal-header background-modal-header">
+					    <h5 class="modal-title" id="exampleModalScrollableTitle"><font style="vertical-align: inherit;">elige el tipo de contenido que deseas agregar</font></h5>
+					    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+				    <div class="modal-body">
+					    <div class="card">
+							<div class="card-body">
+			    				<h5 class="card-title">Songs</h5>
+			   			 		<p class="card-text">add a new song</p>
+		 	    				<a href="html/add-songs.html" class="btn btn-info">go</a>
+		 	 				</div>
+						</div>
+						<div class="card">
+							<div class="card-body">
+			    				<h5 class="card-title">Albums</h5>
+			   			 		<p class="card-text">add a new album</p>
+		 	    				<a href="html/add-albums.html" class="btn btn-info">go</a>
+		 	 				</div>
+						</div>
+						<div class="card">
+							<div class="card-body">
+			    				<h5 class="card-title">Artists</h5>
+			   			 		<p class="card-text">add a new artist</p>
+		 	    				<a href="html/add-artists.html" class="btn btn-info">go</a>
+		 	 				</div>
+						</div>
+						<div class="card">
+							<div class="card-body">
+			    				<h5 class="card-title">Genre</h5>
+			   			 		<p class="card-text">add a genre</p>
+		 	    				<a href="html/add-genre.html" class="btn btn-info">go</a>
+		 	 				</div>
+						</div>
+	        		</div>
+	      			<div class="modal-footer background-modal-foot">
+		       			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><font style="vertical-align: inherit;">cancel</font ></button>
+		      		</div>
+		    	</div>
+		  	</div>
+		</div>
+        <script type="text/javascript" src="frameworks/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="frameworks/bootstrap.bundle.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</div>		
+</body>
+ </html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!--bootstrap-->
+		<link rel="stylesheet" type="text/css" href="../frameworks/bootstrap.css">
+		<!--custom CSS-->
+		<link rel="stylesheet" type="text/css" href="../css/Styles.css">
+		<!--font-->
+		<title>Proyecto 1</title>
+	</head>
+<header class="sticky-top">
+	<nav class="navbar navbar-expand-lg navbar-dark background-navbar sticky-top">
+		<div class="container-fluid">
+		   	<a class="navbar-brand" href="#">Amisi</a>
+		   	<span class="navbar-text text-navbar"> another music page </span>
+		   	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		   	<span class="navbar-toggler-icon"></span>
+		   	</button>
+		  	<div class="collapse navbar-collapse navbar-custom" id="navbarNavDropdown">
+	     		<ul class="navbar-nav">
+	        		<li class="nav-item">
+	        	        <a class="nav-link" href="../index.html">home</a>
+	          		</li>
+	       	 		<li class="nav-item">
+	          			<a class="nav-link" href="#">Features</a>
+	        		</li>
+	        		<li class="nav-item dropdown">
+	          			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Add content</a>
+	          			<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	            			<li><a class="dropdown-item" href="add-songs.html">Add a new song</a></li>
+	            			<li><a class="dropdown-item" href="add-albums.html">Add a new album</a></li>
+	            			<li><a class="dropdown-item" href="add-artists.html">Add a new artist</a></li>
+	            			<li><a class="dropdown-item" href="add-genre.html">Add a new genre</a></li>
+	          			</ul>
+		       		</li>
+		     	</ul>
+		   	</div>
+	  	</div>
+	</nav>
+</header>		
+<body class="body">
+	<div class="container">
+		<h4 class="text-light" style="text-align: center"><b>Añadir una nueva cancion</b></h4>
+		<div class="row">
+			<div class="mb-3 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+				<label for="name" class="form-label text-light"><b>name</b></label>
+				<input type="text" class="form-control" id="song" placeholder="insert the song name">
+			</div>
+			<div class="mb-3 input-inline col-sm-12 col-md-4 col-lg-4 col-xl-4">
+				<label for="numero de pista" class="form-label text-light"><b>numero de pista</b></label>
+				<select id="numero de pista" class="form-select">
+					<option selected>numero de pista</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+				</select>
+			</div>
+			<div class="mb-3 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+				<label for="artist" class="form-label text-light"><b>artist</b></label>
+				<input type="text" class="form-control" id="artist" placeholder="artist">
+			</div>
+			<div class="mb-3 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+				<label for="album" class="form-label text-light"><b>album</b></label>
+				<input type="text" class="form-control" id="album" placeholder="album">
+			</div>
+			<div class="mb-3 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+				<label for="year" class="form-label text-light"><b>year</b></label>
+				<input type="text" class="form-control" id="year" placeholder="year">
+			</div>
+			<div>
+				<button id=songinfo class="btn btn-pink">submit</button>
+			</div>
+		</div>	
+	</div>
+	<script type="text/javascript" src="../frameworks/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="../frameworks/bootstrap.bundle.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
+</body>
+ </html>
